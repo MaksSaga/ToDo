@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.min.css">
+        
+        <!-- Useful meta tags -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'/>
+        
+        <meta content='true' name='HandheldFriendly'/>
+        <meta content='width' name='MobileOptimized'/>
+        <meta content='yes' name='apple-mobile-web-app-capable'/>
+        
+        <meta name="robots" content="index, follow, noodp">
+        <meta name="googlebot" content="index, follow">
+        <meta name="google" content="notranslate">
+        <meta name="format-detection" content="telephone=no">
+    
+    <title>ToDo</title>
+</head>
+<body>
+
+    <div class="wraper">
+        <div class="wraper__inner">
+            <!-- Header -->
+            <header class="header">
+                <h1 class="header__name"><span>T</span>oDo</h1>
+                <div class="header__block-send-message">
+                    <div class="header__form">
+                        <textarea class="header__form-textarea" placeholder="Что мне записать ?" value=""></textarea>
+                        <button class="header__form-send-message" type="submit">
+                            <img src="assets/img/send.svg" alt="send">
+                        </button>
+                    </div>
+                </div>
+            </header>            <!-- Main -->
+            
+            <main class="main"></main>
+            <!-- Main -->
+            <footer class="footer">
+                <button class="footer__button remove__all">Очистить</button>
+            </footer>        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="wraper__alert">
+    
+    </div>
+    <!-- Js -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
